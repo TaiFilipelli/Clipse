@@ -5,8 +5,17 @@
   text-align: center;
 }
 
+:root{
+  --color-oscuro3:#06141b;
+  --color-oscuro2:#11212d;
+  --color-oscuro1:#253745;
+  --color-claro3:#4a5c6a;
+  --color-claro2:#9ba8ab;
+  --color-claro1:#ccd0cf;
+}
+
 body{
-  background-image: linear-gradient(to bottom, #000000, #2e2e2e);
+  background-image: linear-gradient(to bottom, var(--color-claro1),var(--color-oscuro3));
 }
 
 .logo {
@@ -16,7 +25,7 @@ body{
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646464);
+  filter: drop-shadow(0 0 2em var(--color-oscuro2 ));
   scale: 120%;
 }
 
@@ -30,28 +39,26 @@ body{
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
-
 h1{
   margin: 0;
 }
 
 .info{
-  background-color: #3E3E3E;
+  background-color: var(--color-oscuro3);
   border-radius: 5px;
   margin-top: 50px;
+  padding: 1em;
 }
 
 .button{
   width: 150px;
+  background-color: var(--color-oscuro2);
   margin-bottom: 15px;
   font-size: 20px;
   transition: background-color 0.5s, border-color 0.5s;
 }
 .button:hover{
-  background-color: #646464;
+  background-color: var(--color-claro3);
   border-color: #fff;
 }
 
