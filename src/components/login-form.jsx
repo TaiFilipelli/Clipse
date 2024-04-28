@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './login-form.css';
-import { Router, Route, Link } from 'wouter';
+import { Link } from 'wouter';
 
 const LoginForm = () => {
     const [user, setUser] = useState('');
