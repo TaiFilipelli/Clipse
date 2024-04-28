@@ -1,0 +1,9 @@
+@import '../variables.css';
+
+.logo {
+    height: 20em;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em var(--color-oscuro2 ));
+    scale: 120%;
+}
