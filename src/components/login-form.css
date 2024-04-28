@@ -14,9 +14,14 @@ input{
     border-radius: 4px;
     border-color: var(--color-oscuro2);
     background-color: var(--color-oscuro3);
-    height: 30px;
+    height: 37  px;
     font-size: 15px;
 }
 .links{
     color: var(--color-claro1);
+}
+button{
+    background-color: var(--color-oscuro3);
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
