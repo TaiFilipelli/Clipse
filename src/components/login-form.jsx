@@ -30,7 +30,7 @@ const LoginForm = () => {
         <label htmlFor="pass">Contraseña</label>
         <br />
         <input type="password" placeholder='Contraseña' value={password} onChange={handlePasswordChange}/><br />
-        <button type='submit'>Iniciar sesión</button><br />
+        <button type='submit' className='links'>Iniciar sesión</button><br />
         <Link to='/registro' className='links'>Quiero crear mi usuario</Link>
       </section>
     </div>

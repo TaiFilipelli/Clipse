@@ -7,6 +7,7 @@ section.login{
     padding: 20px;
 }
 label{
+    font-family: 'Minzeeca Semibold';
     font-size: 1.3em;
     margin: 30px;
 }
@@ -19,6 +20,7 @@ input{
 }
 .links{
     color: var(--color-claro1);
+    font-family: 'Minzeeca Regular';
 }
 button{
     background-color: var(--color-oscuro3);

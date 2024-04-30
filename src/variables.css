@@ -32,3 +32,24 @@
     --marine-claro2:#7da0ca;
     --marine-claro1:#c1e8ff;
   }
+
+@font-face {
+  font-family: 'Minzeeca Bold';
+  src: url('./assets/fonts/Minzeeca-Bold-iF66262cd7a4b0b.otf');
+}
+@font-face {
+  font-family: 'Minzeeca Black';
+  src: url('./assets/fonts/Minzeeca-Black-iF66262cd797c4d.otf');
+}
+@font-face {
+  font-family: 'Minzeeca Regular';
+  src: url('./assets/fonts/Minzeeca-Regular-iF66262cd7de036.otf');
+}
+@font-face {
+  font-family: 'Minzeeca Semibold';
+  src: url('./assets/fonts/Minzeeca-Semibold-iF66262cd7e4095.otf');
+}
+@font-face {
+  font-family: 'Minzeeca Light';
+  src: url('./assets/fonts/Minzeeca-Light-iF66262cd7c7974.otf');
+}
