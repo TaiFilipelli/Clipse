@@ -35,7 +35,7 @@ const LoginForm = () => {
         console.log('Datos de inicio de sesión guardados');
     }
   return (
-    <div>
+    <div className='disabled'>
       {showButton &&(<button type='submit' className='links' onClick={handleClickShowForm}>Ingresar</button>)}
       <animated.section className="login" style={{...springs,}}>
         <label htmlFor="user">Nombre de usuario</label>

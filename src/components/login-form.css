@@ -27,3 +27,6 @@ button{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.disabled{
+    opacity: 1;
+}
