@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './login.css';
 import LoginForm from './login-form';
 import { useSpring, animated } from '@react-spring/web';
+import SubtitleType from './SubtitleType';
 
 const Login = () => {
   const [showLogo, setShowLogo] = useState(false);
@@ -22,6 +23,7 @@ const Login = () => {
     <animated.div style={spring}>
       <img className='logo' src='/white-logo-eclipse.png' alt='logo Clipse'/>
       <h1>Bienvenido a Clipse</h1>
+      <SubtitleType/>
       <LoginForm/>
     </animated.div>
   )

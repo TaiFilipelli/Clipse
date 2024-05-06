@@ -2,12 +2,14 @@
 
 h1{
     font-family: 'Minzeeca Bold';
+    margin: 0;
+}
+span{
+    font-family: 'Minzeeca Light';
+    margin-top: 1em;
+    margin-bottom: 1.3em;
 }
 .logo {
     height: 20em;
     cursor:pointer;
-}
-.logo:hover {
-    filter: drop-shadow(0 0 2em var(--color-oscuro2 ));
-    scale: 120%;
 }
