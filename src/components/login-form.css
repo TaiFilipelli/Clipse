@@ -2,9 +2,10 @@
 
 section.login{
     border-radius: 4px;
-    background-color: var(--color-oscuro2);
+    background-color: var(--honey-oscuro2);
     height: 20vh;
     padding: 20px;
+    padding-bottom: 50px;
 }
 label{
     font-family: 'Minzeeca Semibold';
@@ -13,19 +14,24 @@ label{
 }
 input{
     border-radius: 4px;
-    border-color: var(--color-oscuro2);
-    background-color: var(--color-oscuro3);
-    height: 37  px;
+    border-style: none;
+    padding: 5px;
+    background-color: var(--honey-oscuro3);
     font-size: 15px;
 }
-.links{
-    color: var(--color-claro1);
+button.links{
+    color: var(--honey-claro1);
     font-family: 'Minzeeca Regular';
+    margin-top: 15px;
 }
 button{
-    background-color: var(--color-oscuro3);
+    background-color: var(--honey-oscuro3);
     margin-top: 15px;
     margin-bottom: 15px;
+}
+a.links{
+    color: var(--honey-claro1);
+    font-family: 'Minzeeca Regular';
 }
 .disabled{
     opacity: 1;

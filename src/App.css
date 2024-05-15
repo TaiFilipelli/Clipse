@@ -8,20 +8,14 @@
 @import 'variables.css';
 
 body{
-  background-image: linear-gradient(to bottom, var(--color-claro1),var(--color-oscuro3));
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+  background-image: linear-gradient(to bottom, var(--honey-claro),var(--honey-oscuro3));
 }
 
 .card {
   padding: 2em;
 }
 .info{
-  background-color: var(--color-oscuro3);
+  background-color: var(--honey-oscuro3);
   border-radius: 5px;
   margin-top: 50px;
   padding: 1em;
@@ -29,23 +23,12 @@ body{
 
 .button{
   width: 150px;
-  background-color: var(--color-oscuro2);
+  background-color: var(--honey-oscuro2);
   margin-bottom: 15px;
   font-size: 20px;
   transition: background-color 0.5s, border-color 0.5s;
 }
 .button:hover{
-  background-color: var(--color-claro3);
+  background-color: var(--honey-claro3);
   border-color: #fff;
-}
-
-.desc{
-  padding: 5px;
-}
-
-/* Estilo base para el elemento */
-.info {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.5s ease, transform 0.5s ease;
 }

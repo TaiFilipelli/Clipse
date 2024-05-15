@@ -1,15 +1,19 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 import Login from './components/login';
-import { Route } from 'wouter';
+import { Switch, Route } from 'wouter';
 import RegistroUsuario from './components/registroUsuario';
 
 export default function App() {
   return (
     <div>
-    <Login>
+    <Switch>
+      <Route path='/' component={Login}/>
       <Route path='/registro' component={RegistroUsuario}></Route>
-    </Login>
+
+    </Switch>
+    
+    
     </div>
   );
 }
