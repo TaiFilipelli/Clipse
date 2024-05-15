@@ -1,0 +1,7 @@
+@import '/src/variables.css';
+
+section.register{
+    background-color: var(--honey-oscuro2);
+    display: grid;
+    grid-column: auto;
+}

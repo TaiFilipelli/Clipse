@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './App.css';
 import Login from './components/login';
 import { Switch, Route } from 'wouter';
-import RegistroUsuario from './components/registroUsuario';
+import RegistroUsuario from './components/pages/registroUsuario';
 
 export default function App() {
   return (
